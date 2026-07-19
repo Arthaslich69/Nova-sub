@@ -2511,6 +2511,13 @@
         ]
       },
       {
+        "outbound": "block",
+        "network": "udp",
+        "port": [
+          443
+        ]
+      },
+      {
         "inbound": "tun-in",
         "action": "sniff"
       },
