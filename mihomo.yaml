@@ -8769,4 +8769,5 @@ rules:
   - IP-CIDR,198.41.252.0/23,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,185.122.0.0/24,☁️ CloudFlareCDN,no-resolve
   - GEOIP,CN,🎯 全球直连
+  - "DST-PORT,443,REJECT,udp"
   - MATCH,🐟 漏网之鱼
